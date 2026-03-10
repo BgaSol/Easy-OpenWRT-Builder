@@ -9,9 +9,15 @@
 #######################################################################################################################
 
 # Basic example recipe, change to suit.
-CUSTOM_PACKAGES="blockd block-mount kmod-fs-ext4 kmod-fs-ntfs3 kmod-usb2 kmod-usb3 kmod-usb-storage kmod-usb-core \
-    luci luci-app-ddns luci-app-samba4 luci-app-sqm sqm-scripts curl nano"
-
+CUSTOM_PACKAGES="
+    luci \
+    luci-base luci-i18n-base-zh-cn luci-i18n-package-manager-zh-cn luci-i18n-firewall-zh-cn \
+    luci-app-adblock luci-i18n-adblock-zh-cn \
+    luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn \
+    luci-theme-openwrt \
+    curl \
+    netbird\
+    "
 #######################################################################################################################
 
 clear

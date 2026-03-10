@@ -16,6 +16,7 @@ CUSTOM_PACKAGES="
     luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn \
     luci-theme-openwrt \
     openssh-server openssh-sftp-server \
+    kmod-nft-socket kmod-nft-tproxy kmod-nft-nat \
     curl \
     netbird\
     "

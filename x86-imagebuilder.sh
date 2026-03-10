@@ -15,6 +15,7 @@ CUSTOM_PACKAGES="
     luci-app-adblock luci-i18n-adblock-zh-cn \
     luci-app-nlbwmon luci-i18n-nlbwmon-zh-cn \
     luci-theme-openwrt \
+    openssh-server openssh-sftp-server \
     curl \
     netbird\
     "
